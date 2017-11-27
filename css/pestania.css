@@ -6,19 +6,20 @@
     line-height: 45px;
     margin-top: -56px;
     border: transparent;
+    padding: 0px 25px
+    
 }
 
 #pestania .contenedor{
-    text-align: center;
-    margin: 0px;
+   width: 100%;
 }
 
 #pestania .contenedor a{
-    margin: 0px 5px;
-    text-decoration: none;
-    color: white;
-   
-    padding: 2px;
+display: inline-block;
+text-decoration:none;
+color:white;
+    font-size: 15px;
+    margin: 0px 5px 
 
  
    
@@ -27,10 +28,28 @@
        margin: 0px 5px;
     text-decoration: none;
     color: black;
-    border: 1px white solid;
+    border: 1px transparent solid;
     border-radius: 6px 6px;
-    padding: 2px;
-    background: white;
+    padding: 1px;
+    background: rgba(255,255,255,0.3);
 
  
+}
+
+@media (min-width:1024px){
+    #pestania{
+    width: 100%;    
+    
+    }
+    #pestania div a{
+      width: 32%;
+      text-align-last: center
+    
+    }
+    }
+@media(min-width:768px){
+    #pestania div a{
+    width:31%;
+        text-align: center;
+        }
 }

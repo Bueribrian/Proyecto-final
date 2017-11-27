@@ -1,8 +1,9 @@
-@import url(/css/menu.css);
-@import url(/css/banner.css) ;
-@import url(/css/pestania.css);
-@import url(/css/cuerpo.css);
-@import url(/css/info.css);
+@import url(./menu.css);
+@import url(./banner.css) ;
+@import url(./pestania.css);
+@import url(./cuerpo.css);
+
+
 *{
     margin:0;
     padding: 0;
@@ -10,6 +11,12 @@
 }
 body{
    font-family: 'Open Sans', sans-serif;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b00a0+0,01a078+99 */
+background: #9b00a0; /* Old browsers */
+background: -moz-linear-gradient(45deg, #9b00a0 0%, #01a078 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #9b00a0 0%,#01a078 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #9b00a0 0%,#01a078 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b00a0', endColorstr='#01a078',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 header{
@@ -21,6 +28,8 @@ header{
     top:0;
     left:0;
     z-index:100;
+    
+    
     
 }
 
@@ -63,6 +72,11 @@ h2{
 }
 footer{
     height: 100px;
+    background: rgba(0,0,0,0.8);
+    
+}
+footer a{
+    
 }
 footer .contenedor{
     display: flex;
@@ -70,15 +84,17 @@ footer .contenedor{
 }
 .copy{
     font-size: 20px;
+    color: white;
 }
 .sociales{
     width: 100%;
     text-align: center;
     font-size: 28px;
+    
         
 }
 .sociales a{
-    color:black;
+    color:white;
     text-decoration: none;
 }
 
