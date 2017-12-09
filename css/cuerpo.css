@@ -5,15 +5,15 @@
 }
 
 #cuerpo img{
-    width: 100%;
-    height: 100%;
-    max-width: 450px;
-    min-width: 450px;
-    border: 2px solid black;
-    border-radius: 2px 2px;
+    width: 40%;
+       height: 100%;
+    max-width: 200px;
+    min-width: 200px;
+    border: 1px solid black;
+
     
     
 }
 #cuerpo article{
-    margin:5px;
+    margin:2px;
 }

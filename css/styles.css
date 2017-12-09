@@ -11,12 +11,7 @@
 }
 body{
    font-family: 'Open Sans', sans-serif;
-   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b00a0+0,01a078+99 */
-background: #9b00a0; /* Old browsers */
-background: -moz-linear-gradient(45deg, #9b00a0 0%, #01a078 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg, #9b00a0 0%,#01a078 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg, #9b00a0 0%,#01a078 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b00a0', endColorstr='#01a078',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
 }
 
 header{
@@ -72,11 +67,14 @@ h2{
 }
 footer{
     height: 100px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,1);
     
 }
 footer a{
     
+}
+footer a:hover{
+    color:deepskyblue;
 }
 footer .contenedor{
     display: flex;

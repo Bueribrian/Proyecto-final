@@ -1,12 +1,12 @@
 #pestania{
     position: relative;
     width: 100%;
-    background: black;
-    height: 50px;
+    background: white;
+    height: 46px;
     line-height: 45px;
     margin-top: -56px;
-    border: transparent;
-    padding: 0px 25px
+    padding: 0px 25px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
     
 }
 
@@ -15,23 +15,21 @@
 }
 
 #pestania .contenedor a{
-display: inline-block;
-text-decoration:none;
-color:white;
+    display: inline-block;
+    text-decoration:none;
+    color:black;
     font-size: 15px;
-    margin: 0px 5px 
+    margin: 0px 2px 
 
  
    
 }
 #pestania .contenedor a:hover{
-       margin: 0px 5px;
+    
     text-decoration: none;
     color: black;
-    border: 1px transparent solid;
-    border-radius: 6px 6px;
-    padding: 1px;
-    background: rgba(255,255,255,0.3);
+    
+    background: deepskyblue;
 
  
 }
@@ -42,14 +40,15 @@ color:white;
     
     }
     #pestania div a{
-      width: 32%;
+      width: 34%;
       text-align-last: center
-    
+    margin:2px 2px;
     }
     }
 @media(min-width:768px){
     #pestania div a{
-    width:31%;
+    margin:2px 2px;
+        width:32%;
         text-align: center;
         }
 }

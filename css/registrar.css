@@ -6,9 +6,8 @@
 }
 #bloque-login .contenedor{
    width: 98%;
-    height: 400px;
-    background: rgba(255,255,255,0.5);
-    border-radius: 6px 6px;
+    height: 450px;
+    background: deepskyblue;
     border: 3px solid transparent;
     position: absolute;
     top:50px;
@@ -43,15 +42,15 @@
     
 }
 #bloque-login .contenedor form input::placeholder{
-    color:rgba(255,255,255,0.9);
+    color:rgba(255,255,255,0.4);
     padding: 10px 15px;
     font-size: 15px;
 }
 #bloque-login .contenedor form input:focus{
-        border-color: rgb(255, 144, 0);
+        border-color: white;
     box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255,144,0,0.6);
     outline: 0 none;
-    color:aqua;
+    color:white;
 }
 footer{
     position: fixed;
