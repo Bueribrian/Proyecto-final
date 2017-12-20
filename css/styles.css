@@ -2,7 +2,7 @@
 @import url(./banner.css) ;
 @import url(./pestania.css);
 @import url(./cuerpo.css);
-
+@import url(./slider.css);
 
 *{
     margin:0;
@@ -11,7 +11,7 @@
 }
 body{
    font-family: 'Open Sans', sans-serif;
-    
+    background: white;
 }
 
 header{
@@ -64,13 +64,19 @@ section{
 }
 h2{
     text-align: center;
+    margin-top: 90px;
 }
 footer{
     height: 100px;
-    background: rgba(0,0,0,1);
+    background-color: rgba(255, 255, 255, 0.2);
+     border-top: 0.1px solid rgba(0, 0, 0, 0.2);;
+    clear: both;
     
+    margin-top: 50px;
+    color: black;
 }
 footer a{
+    color:black;
     
 }
 footer a:hover{
@@ -82,7 +88,7 @@ footer .contenedor{
 }
 .copy{
     font-size: 20px;
-    color: white;
+    color: black;
 }
 .sociales{
     width: 100%;
@@ -92,7 +98,7 @@ footer .contenedor{
         
 }
 .sociales a{
-    color:white;
+    color:black;
     text-decoration: none;
 }
 

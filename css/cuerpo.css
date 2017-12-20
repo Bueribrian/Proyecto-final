@@ -1,19 +1,87 @@
-#cuerpo .contenedor{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+#cuerpo{
+  width: 90%;
+    height: 70%;
+    margin-left: 14px;
+    margin-top: 50px;
+    background: white;
+    padding: 0px 0px 0px 0px;
+    
+   
 }
 
 #cuerpo img{
-    width: 40%;
-       height: 100%;
-    max-width: 200px;
-    min-width: 200px;
-    border: 1px solid black;
-
+   width: 100%;
+   max-height: 33%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px 5px;
     
     
 }
 #cuerpo article{
-    margin:2px;
+   
+}
+.info{
+    
+   
+}
+.info:hover{
+    
+}
+
+@media(min-width:480px){
+    #cuerpo img{
+    width: 45%;
+   max-height: 33%;
+    cursor: pointer;
+    }
+    #cuerpo{
+     width: 98%;
+    height: 70%;
+    margin-left: 30px;
+    margin-top: 50px;
+    background: white;
+    padding: 0px 0px 0px 0px;
+    }
+    
+        
+    
+}
+
+
+@media(min-width:768px){
+     #cuerpo img{
+    width: 45%;
+   max-height: 33%;
+    cursor: pointer;
+    }
+    #cuerpo{
+     width: 98%;
+    height: 70%;
+    margin-left: 47px;
+    margin-top: 50px;
+    background: white;
+    padding: 0px 0px 0px 0px;
+    }
+    
+}
+
+@media(min-width:1024px){
+      #cuerpo img{
+    width: 30%;
+    max-height: 33%;
+    cursor: pointer;
+    }
+    #cuerpo{
+     width: 100%;
+    height: 70%;
+    margin-left: 55px;
+    margin-top: 50px;
+    background: white;
+    padding: 0px 0px 0px 0px;
+        flex-wrap: wrap;
+        align-self: center;
+        
+    }
+    
 }
