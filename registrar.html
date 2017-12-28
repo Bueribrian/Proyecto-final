@@ -17,8 +17,7 @@
                     <nav class="menu">
                       <a href="login.html">Entrar</a>
                       <a href="registrar.html">Registrarse</a>
-                      <a href="">Subir foto</a>
-                      <a href="">Informacion</a>     
+                      <a href="informacion.html">Informacion</a>     
                      </nav>
 
                     </div>   
@@ -27,19 +26,18 @@
     <main>
         <section id="bloque-login">
             <div class="contenedor">
-                <form action="required" required>
+                <form   id="">
                    <h2>Crea tu cuenta</h2>
-                    <input type="text" required=""placeholder="Nombre">
-                    <input type="email"required=""placeholder="Correo electronico">
-                    <input type="password"required=""placeholder="Contraseña">
-                    <input type="password"required=""placeholder="Repita la contraseña">
-                    <input type="submit" required=""value="Registrar">   
+                    <input required type="text"  id="username"placeholder="Nombre">
+                    <input required type="email" id="email"placeholder="Correo electronico">
+                    <input required type="password" id="password"placeholder="Contraseña">
+                    <input required type="password" id="re-password"placeholder="Repita la contraseña">
+                    <input required type="submit"  id=""value="Registrar">   
                 </form>   
             </div>     
         </section>
     </main>
     
-    
-    
+<script src="validacion.js"></script>
 </body>
 </html>

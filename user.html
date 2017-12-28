@@ -20,7 +20,7 @@
                     <nav class="menu">
                           <a href="">Sube una imagen</a>
                           <a href="">Usuario</a>
-                          <a href="">Informacion</a>     
+                          <a href="informacion.html">Informacion</a>     
                      </nav>
 
                     </div>   
@@ -50,54 +50,27 @@
            
                  
                        
-          <!---titulo--->                         
-           <section id="titulo">
-             <h2>Bienvenido a Pictures Wallet una web para subir tus imagenes favoritas facil y rapido</h2>
-           </section>
-          <!---titulo---> 
-       
-      
-       
-        <!---cuerpo--->
-          <section >
-               <div id="cuerpo" >
-                
-                 <article>
-                          <img src="./imagenes/1.jpg" alt="">
-                          <a class="info" href=""></a>
-                 </article>
-
-                 <article>  
-                          <img src="./imagenes/2.jpg" alt="">
-                          <a class="info" href=""></a>
-                 </article>
-
-                     <article>
-                          <img src="./imagenes/3.jpg"  alt="">
-                          <a class="info" href=""></a>
-                 </article>
-
-                 <article>
-                          <img src="./imagenes/5.jpg" alt="" width="1920px"
-                          height="1080px">  
-                          <a class="info"  href=""></a>
-                 </article>
-             
-                              
-
-               
-                    
-                   
-                    
-                    
-                  
-
-        </div>
-       
-       
+          <section id="sec-cuerpo">
+               <div id="cuerpo" >   
+                 <img class ="galeria-imagen"src="imagenes/1.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/10.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/11.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/12.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/13.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/14.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/DSC_0386.JPG" alt="">
+                 <img class ="galeria-imagen"src="imagenes/DSC_0329.JPG" alt="">
+                 <img class ="galeria-imagen"src="imagenes/DSC_0308.JPG" alt="">
+                 <img class ="galeria-imagen"src="imagenes/DSC_0269.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/DSC_0255.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/16.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/17.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/20.jpg" alt="">
+                 <img class ="galeria-imagen"src="imagenes/DSC_0141%202.jpg" alt="">
+                </div>
        </section>
-        <!---cuerpo--->     
-       
+        <!---cuerpo---> 
+        <!---https://www.templatemonster.com/es/demo/59496.html--->    
    </main>  
       <footer>
        <div class="contenedor">
@@ -106,9 +79,28 @@
                <a class="icon-instagram" href=""></a>
                <a class="icon-facebook-official" href=""></a>
                <a class="icon-pinterest-squared" href=""></a>
-               
            </div>
        </div>
     </footer>
+    <script src="./js/jquery.js"></script>
+    <script>
+               $('.galeria-imagen').click(function(e){
+              var img = e.target.src;
+              var visual = '<div class="visual" ><img src="'+ img + '" class="visual-imagen"><div class="visual-boton" >X</div></div>';
+              $('body').append(visual);
+              $('.visual-boton').click(function(){
+                $('.visual').remove();
+              })
+            });
+
+
+            $(document).keyup(function(e){
+              if (e.which==27) {
+                $('.visual').remove();
+              }
+            })
+               </script>
+    <script src="./js/slider.js"></script>
+    
     </body>
 </html>

@@ -71,7 +71,7 @@ footer{
     background-color: rgba(255, 255, 255, 0.2);
      border-top: 0.1px solid rgba(0, 0, 0, 0.2);;
     clear: both;
-    
+    border-top: 1px solid rgba(0,0,0,0.3);
     margin-top: 50px;
     color: black;
 }
